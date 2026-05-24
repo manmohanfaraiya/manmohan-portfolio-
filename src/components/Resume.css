@@ -1,0 +1,27 @@
+.resume-bento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: repeating-linear-gradient(
+    -45deg,
+    #111113,
+    #111113 10px,
+    #18181b 10px,
+    #18181b 20px
+  );
+}
+
+.resume-desc {
+  margin-bottom: 25px;
+}
+
+.resume-btn {
+  background: #fafafa;
+  color: #09090b;
+}
+
+.resume-btn:hover {
+  background: #d4d4d8;
+}

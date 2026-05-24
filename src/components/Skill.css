@@ -1,0 +1,36 @@
+.skills-bento {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.skill-item {
+  background: #18181b;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #27272a;
+}
+
+.skill-item h3 {
+  font-size: 1.1rem;
+  color: #fafafa;
+  margin-bottom: 8px;
+}
+
+.skill-item p {
+  font-size: 0.9rem;
+  color: #a1a1aa;
+  line-height: 1.4;
+}
+
+@media (max-width: 500px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}

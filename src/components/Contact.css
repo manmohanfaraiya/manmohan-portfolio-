@@ -1,0 +1,61 @@
+.contact-bento {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-subtitle {
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #27272a;
+  border-radius: 8px;
+  background: #18181b;
+  color: #fafafa;
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #52525b;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #52525b;
+}
+
+.contact-form button {
+  border: none;
+  cursor: pointer;
+  width: max-content;
+}
+
+.contact-result {
+  margin-top: 15px;
+  color: #10b981;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .form-row {
+    flex-direction: column;
+  }
+}
